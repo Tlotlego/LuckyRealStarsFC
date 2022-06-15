@@ -1,0 +1,62 @@
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+}
+header {
+  background-color: rgba(208, 208, 84, 0.546);
+
+  height: 40px;
+}
+body {
+  background-color: grey;
+  height: 40px;
+  background-attachment: scroll;
+}
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  background-image: url("images/30ba3458-3a50-4600-9e8b-fdc01d80a8e0.jpg");
+}
+
+a {
+  color: yellowgreen;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+}
+.facebook,
+.twitter {
+  text-decoration: none;
+  display: block;
+  width: 80%;
+  border: 2px solid #333;
+  padding: 4px 8px;
+  border-radius: 2rem;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.twitter {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25%;
+  background-color: white;
+  margin-right: 0.3rem;
+  font-size: 0.8rem;
+  color: black;
+}
+footer {
+}
